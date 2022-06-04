@@ -1,6 +1,6 @@
 import React from 'react'
-import { value Image } from 'types/api'
-import { value getImageUrl } from 'utils/getImageUrl'
+import { Image } from 'types/api'
+import { getImageUrl } from 'utils/getImageUrl'
 import * as S from './styles'
 
 const Logo = ({ url, alternativeText }: Image) => (
